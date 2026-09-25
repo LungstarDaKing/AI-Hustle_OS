@@ -1,0 +1,102 @@
+name: ai_hustle_os
+description: "AI HustleOS - An intelligent business operating system for South African micro-businesses."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.3
+
+# Dependencies specify other packages that your package needs in order to work.
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State management
+  provider: ^6.1.2
+
+  # Navigation
+  go_router: ^14.2.0
+
+  # Backend services (Supabase)
+  supabase_flutter: ^2.4.0
+
+  # Local storage for offline support
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+
+  # Internationalization and localization
+  intl: ^0.20.3
+
+  # Dependency injection
+  get_it: ^7.6.4
+
+  # UI Components
+  flutter_svg: ^2.0.10+1
+  flutter_staggered_animations: ^1.0.0
+  shimmer: ^3.0.0
+
+  # Notifications
+  flutter_local_notifications: ^16.2.0
+
+  # Image picking and processing
+  image_picker: ^1.0.4
+
+  # Sharing functionality
+  share_plus: ^8.0.2
+
+  # URL launching
+  url_launcher: ^6.2.2
+
+  # Charts and data visualization (using fl_chart instead of charts_flutter)
+  fl_chart: ^0.69.0
+
+  # UUID generation
+  uuid: ^4.3.3
+
+  # Loading states
+  flutter_spinkit: ^5.2.0
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Linting
+  flutter_lints: ^6.0.0
+
+  # Integration testing
+  integration_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# For information on the generic Dart part of this file, see the
+# https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/logos/
+    - assets/animations/
